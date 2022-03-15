@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001a49;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ae89bd;
+}
+
+
+.polaroidblur{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: 200px;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0,.5);
+    
+}
+
+.blur{
+    background-color: #fff;
+    filter:blur(2px) ;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0,.5);
+}
+
+.blur:hover{
+    filter:blur(0);
+ 
+}
+
+div.polaroidblock{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: 200px;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0,.5);
+    display: inline-block;
+    
+}
+
+.opaco{
+    filter: brightness(0.1);
+
+}
+
+.opaco:hover{
+    filter: brightness(1);
+}
+
+
+
+.texto{
+    text-align: center;
+}
+
